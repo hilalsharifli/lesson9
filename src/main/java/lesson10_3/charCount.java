@@ -20,7 +20,7 @@ public class charCount {
             for (int j = 0; j < text.length(); j++) {
                 if (i.equals(""+ text.charAt(j))) counter++;
             }
-            str.append(i + ":" + counter + "\n");
+            str.append(i + ":" + counter  + "\n");
         }
         return result = "" + str;
     }
